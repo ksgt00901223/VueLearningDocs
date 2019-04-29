@@ -3,10 +3,10 @@ module.exports = {
   description: '永远不要只满足于世界的表象，要敢于探寻未知的可能。',
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
-    // ['link', { rel: 'icon', href: '/blog/img/favicon.ico' }] // 增加一个自定义的 favicon(网页标签的图标)
+    ['link', { rel: 'icon', href: '/img/favicon.ico' }]  // 增加一个自定义的 favicon(网页标签的图标)
   ],
-  dest: '../docs',
-  base: '/', // 这是部署到github相关的配置 下面会讲
+  // base: '/', // 这是部署到github相关的配置 下面会讲
+  base: '/VueLearningDocs', // 这是部署到github相关的配置 下面会讲
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
